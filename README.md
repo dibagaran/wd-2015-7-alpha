@@ -19,6 +19,7 @@
 * [CSS Galleries / CSSMania](http://www.cssmania.com)
 * [CSS Winner](http://www.csswinner.com)
 * [Unmatched Style](http://unmatchedstyle.com)
+* [CSS Design Awards](http://www.cssdesignawards.com)
 
 ### Sandbox:
 * [CodePen](http://codepen.io/)
