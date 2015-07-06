@@ -15,7 +15,7 @@
 * [CSS-Tricks](https://css-tricks.com)
 
 ### Galleries:
-* [Website Awards - Best Web Design Trends](http://www.awwwards.com)
+* [Awwwards - Best Web Design Trends](http://www.awwwards.com)
 * [CSS Galleries / CSSMania](http://www.cssmania.com)
 * [CSS Winner](http://www.csswinner.com)
 * [Unmatched Style](http://unmatchedstyle.com)
