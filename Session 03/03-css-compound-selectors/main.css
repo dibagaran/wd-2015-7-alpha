@@ -1,0 +1,31 @@
+div p{
+
+}
+
+header > h1{
+
+}
+
+section article > p{
+
+}
+
+.main-content > div #target{
+	
+}
+
+div#main{
+	
+}
+
+p.small-text{
+	
+}
+
+div#main article > p.small-text > a#target span{
+	
+} 
+
+div p, header > h1, p.small-text, .main-content > div #target{
+	
+}
