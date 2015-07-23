@@ -1,0 +1,27 @@
+body{
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+div#first{
+  background: red;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  float: left;
+}
+
+div#second{
+  background: blue;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  float: right;
+}
+
+div#third{
+  background: green;
+  height: 100px;
+  clear: both; /* Try clear: left; and clear: right; and check the result. */
+}

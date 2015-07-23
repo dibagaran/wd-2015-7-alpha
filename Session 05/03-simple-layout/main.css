@@ -1,0 +1,37 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+body > div{
+  width: 990px;
+  margin: 0 auto;
+}
+
+header{
+  height: 150px;
+  background: blue;
+}
+
+nav{
+  height: 50px;
+  background: darkblue;
+}
+
+section{
+  float: left;
+  width: 250px;
+  background: gray;
+  height: 500px;
+}
+
+section#main-content{
+  width: 490px;
+  background: lightgray;
+}
+
+footer{
+  clear: both;
+  height: 50px;
+  background: blue;
+}
