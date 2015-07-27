@@ -4,6 +4,9 @@
 * [World Wide Web Consortium (W3C)](http://www.w3c.org)
 * [W3Schools Online Web Tutorials](http://www.w3schools.com)
 
+### Organizations:
+* [World Wide Web Foundation](http://webfoundation.org)
+
 ### Schools:
 * [Codecademy](http://www.codecademy.com)
 * [Code School](https://www.codeschool.com)
@@ -27,3 +30,4 @@
 
 ### Questions & Answers:
 * [Stack Overflow](http://stackoverflow.com)
+
