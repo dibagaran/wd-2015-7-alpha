@@ -1,0 +1,28 @@
+body, nav > ul{
+  padding: 0;
+  margin: 0;
+}
+
+span.clear{
+  display: block;
+  clear: both;
+}
+
+nav{
+  background-color: #069;
+}
+
+nav > ul{
+  list-style-type: none;
+  /* list-style-image, list-style-position */
+}
+
+nav > ul > li{
+  float: left;
+}
+
+nav > ul > li > a{
+  display: block;
+  padding: 40px 60px;
+  color: white;
+}
