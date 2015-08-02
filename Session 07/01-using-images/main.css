@@ -1,0 +1,44 @@
+body, blockquote{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: url(images/grey_wash_wall.png);
+}
+
+div.screen{
+  width: 600px;
+  height: 521px;
+  background: url(images/imac.png) no-repeat center center;
+  margin: 50px auto;
+}
+
+div.screen > div{
+  padding: 25px 25px 0 25px;
+}
+
+div.screen > div > div{
+  background: white;
+  height: 310px;
+}
+
+div.screen blockquote{
+  padding: 30px;
+  font: normal 13px Arial;
+  text-align: justify;
+}
+
+div.screen cite{
+  display: block;
+  padding: 15px 0;
+  float: right;
+  font-size: 12px;
+  color: #777;
+}
+
+div.screen img{
+  border: solid 10px #ddd;
+  float: left;
+  margin: 0 20px 10px 0;
+}

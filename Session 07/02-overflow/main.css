@@ -1,0 +1,60 @@
+body, p{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #353333 url(images/congruent_outline.png);
+}
+
+div.iphone{
+  width: 251px;
+  height: 528px;
+  background: url(images/iphone5.png) no-repeat center center;
+  margin: 50px auto;
+}
+
+div.iphone > div{
+  padding: 75px 15px 0 17px;
+}
+
+div.iphone > div > header{
+  text-align: center;
+  font: bold 14px/40px Arial;
+  background: #ddd;
+  color: #777;
+  height: 40px;
+}
+
+div.iphone > div > div{
+  background: white;
+  height: 330px;
+  padding-bottom: 10px;
+  overflow: auto;
+}
+
+div.iphone > div > div > div{
+  max-width: 80%;
+  float: left;
+  padding: 10px 10px 0 5px;
+}
+
+div.iphone > div > div > div > p{
+  background: #069;
+  color: white;
+  font: normal 10px Arial;
+  padding: 15px 20px;
+  border-radius: 100px;
+  border-top-left-radius: 0;
+}
+
+div.iphone > div > div > div.alternative {
+  float: right;
+  padding: 10px 5px 0 10px;
+}
+
+div.iphone > div > div > div.alternative > p{
+  background: #b00;
+  border-radius: 100px;
+  border-top-right-radius: 0;
+}
