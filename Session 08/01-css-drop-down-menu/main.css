@@ -1,10 +1,11 @@
-body, nav ul{
+body, nav ul, p{
   padding: 0;
   margin: 0;
 }
 
 body{
   background: #f5f5f5;
+  font: normal 14px Arial;
 }
 
 span.clear{
@@ -15,7 +16,12 @@ span.clear{
 nav{
   border-top: solid 5px #2980b9;
   background: #fff;
-  padding: 30px;
+  padding: 40px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
 nav ul{
@@ -29,7 +35,6 @@ nav > ul > li{
 
 nav > ul > li a{
   text-decoration: none;
-  font: normal 14px Arial;
   display: block;
   padding: 15px 30px;
 }
@@ -66,4 +71,16 @@ nav > ul > li > ul > li > a{
 
 nav > ul > li > ul > li > a:hover{
   background: #3498db;
+}
+
+body > div{
+  padding: 150px 40px 40px 40px;
+}
+
+body > div > p{
+  padding-bottom: 20px;
+  color: #777;
+  line-height: 1.5em;
+  font-size: 12px;
+  text-align: justify;
 }
