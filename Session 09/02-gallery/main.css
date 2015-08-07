@@ -1,0 +1,115 @@
+﻿body, div.gallery > ul, h2, p
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-family: Georgia;
+    background: #2c3e50;
+}
+
+div.gallery
+{
+    width: 512px;
+    height: 470px;
+    margin: 100px auto;
+}
+
+    div.gallery > ul
+    {
+        list-style: none;
+    }
+
+        div.gallery > ul:first-child
+        {
+            overflow: hidden;
+            height: 384px;
+            border: solid 5px white;
+            border-radius: 5px;
+            box-shadow: 0 0 20px #111;
+            background: #ccc;
+        }
+
+            div.gallery > ul:first-child img
+            {
+                display: block;
+                transition: all .3s ease;
+            }
+
+            div.gallery > ul:first-child > li
+            {
+                position: relative;
+            }
+
+            div.gallery > ul:first-child > li > header
+            {
+                color: #2c3e50;
+                background: rgba(255, 255, 255, .85);
+                padding: 20px 30px 15px 30px;
+                position: absolute;
+                right: 0;
+                left: 0;
+                bottom: -90px;
+                transition: all .3s ease;
+            }
+
+                div.gallery > ul:first-child > li:hover > header
+                {
+                    bottom: 0;
+                    line-height: 2em;
+                }
+
+                div.gallery > ul:first-child > li:hover > header > h2
+                {
+                  color: #e74c3c;
+                }
+
+                div.gallery > ul:first-child > li:hover > header > p
+                {
+                  font-style: italic;
+                }
+
+                div.gallery > ul:first-child > li:hover > img
+                {
+                    transform: scale(1.1, 1.1);
+                }
+
+        div.gallery > ul:last-child
+        {
+            height: 20px;
+            padding-top: 15px;
+            width: 170px;
+            margin: 0 auto;
+        }
+
+        div.gallery > ul:last-child > li
+        {
+            float: left;
+        }
+
+            div.gallery > ul:last-child > li > a
+            {
+                text-decoration: none;
+                background: #fff;
+                display: block;
+                width: 35px;
+                height: 7px;
+                margin-right: 10px;
+                text-align: center;
+                font: bold 14px/30px Arial;
+                box-shadow: 0 0 10px #111;
+                border-radius: 5px;
+                color: white;
+            }
+
+            div.gallery > ul:last-child > li > a:hover
+            {
+                background: #e74c3c;
+            }
+
+                div.gallery > ul:last-child > li:last-child > a
+                {
+                    margin-right: 0;
+                }
