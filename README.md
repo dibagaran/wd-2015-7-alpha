@@ -11,11 +11,12 @@
 * [Codecademy](http://www.codecademy.com)
 * [Code School](https://www.codeschool.com)
 
-### Tutorials:
+### Tutorials & Articles:
 * [Tuts+ Free Web Design Tutorials](http://webdesign.tutsplus.com)
 * [SitePoint HTML & CSS Archives](http://www.sitepoint.com/html-css/)
 * [24 Ways - Web Design and Development Articles and Tutorials](http://24ways.org)
 * [CSS-Tricks](https://css-tricks.com)
+* [Smashing Magazine](http://www.smashingmagazine.com)
 
 ### Galleries:
 * [Awwwards - Best Web Design Trends](http://www.awwwards.com)
@@ -30,4 +31,3 @@
 
 ### Questions & Answers:
 * [Stack Overflow](http://stackoverflow.com)
-
