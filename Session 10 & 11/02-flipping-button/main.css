@@ -1,0 +1,68 @@
+body{
+  padding: 0;
+  margin: 0;
+  -moz-perspective: 1000px;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  background: #069;
+}
+
+.flipper{
+  width: 450px;
+  height: 100px;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  text-align: center;
+  margin: 100px auto;
+}
+
+.flipper:hover{
+  -webkit-transform: rotateX(-89deg);
+  -moz-transform: rotateX(-89deg);
+  -o-transform: rotateX(-89deg);
+  -ms-transform: rotateX(-89deg);
+  transform: rotateX(-89deg);
+}
+
+.flipper > div{
+  height: 100px;
+  background: #09c;
+  font: normal 20px/100px Arial;
+  text-transform: uppercase;
+  color: #fff;
+  -moz-transition: background .4s ease;
+  -o-transition: background .4s ease;
+  -webkit-transition: background .4s ease;
+  transition: background .4s ease;
+}
+
+.flipper > :nth-child(1)
+{
+  -moz-transform: translateZ(50px);
+  -o-transform: translateZ(50px);
+  -ms-transform: translateZ(50px);
+  -webkit-transform: translateZ(50px);
+  transform: translateZ(50px);
+}
+
+.flipper:hover > :nth-child(1)
+{
+  background: #08b;
+}
+
+.flipper > :nth-child(2)
+{
+  background: #08b;
+  -moz-transform: rotateX(90deg) translateZ(150px);
+  -o-transform: rotateX(90deg) translateZ(150px);
+  -ms-transform: rotateX(90deg) translateZ(150px);
+  -webkit-transform: rotateX(90deg) translateZ(150px);
+  transform: rotateX(90deg) translateZ(150px);
+}
